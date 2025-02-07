@@ -29,6 +29,7 @@ The repository includes:
 
 ## 🚀 Usage
 Running the training script:
+
 To train the Hamiltonian learning model on a specific dataset, use:
 
 ```bash
