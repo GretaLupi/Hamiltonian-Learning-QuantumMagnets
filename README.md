@@ -15,3 +15,13 @@ Our work explores Hamiltonian learning in quantum magnets using impurity-based t
 To use the models, install the required dependencies:
 ```bash
 pip install -r requirements.txt
+
+## 📊 Datasets
+The repository includes:
+
+- **Spin Chain Datasets** (data/spin_chain/):
+  - Contains spin correlation calculations with spin-1 impurity perturbation.
+  - Both Bx and Bz case.
+- **Fermionic Chain Dataset** (data/fermionic_chain/):
+  - Includes impurity responses in fermionic systems
+  - Useful for benchmarking Hamiltonian learning methods.
