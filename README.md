@@ -1,4 +1,4 @@
-# Quantum Magnet Hamiltonian Learning - Datasets & Models
+# Hamiltonian Learning Quantum Magnets - Datasets & Models
 
 This repository contains the datasets and models used in the paper:  
 **"Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography"**  
