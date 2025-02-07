@@ -15,6 +15,7 @@ Our work explores Hamiltonian learning in quantum magnets using impurity-based t
 To use the models, install the required dependencies:
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📊 Datasets
 The repository includes:
