@@ -48,7 +48,7 @@ If you use this repository in your research, please cite our paper:
   title={Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography},
   author={Greta Lupi and Jose L.Lado},
   journal={Phys. Rev. Applied (under review)},
-  year={2024}
+  year={2025}
 }
 ```
 
