@@ -26,3 +26,33 @@ The repository includes:
 - **Fermionic Chain Dataset** (data/fermionic_chain/):
   - Includes impurity responses in fermionic systems
   - Useful for benchmarking Hamiltonian learning methods.
+
+## 🚀 Usage
+Running the training script:
+To train the Hamiltonian learning model on a specific dataset, use:
+
+```bash
+python train_model.py --dataset spin_chain
+For the fermionic dataset:
+```
+
+```bash
+python train_model.py --dataset fermionic_chain
+```
+Modify config.json to adjust model parameters.
+
+## 📄 Citation
+If you use this repository in your research, please cite our paper:
+
+@article{GLupi2024,
+  title={Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography},
+  author={Greta Lupi and Jose L.Lado},
+  journal={Phys. Rev. Applied (under review)},
+  year={2024}
+}
+
+## 🤝 Contributing
+If you find this repository useful and wish to contribute, feel free to open an issue or submit a pull request.
+
+## 📬 Contact
+For any questions or collaborations, please reach out via email or open an issue in this repository.
