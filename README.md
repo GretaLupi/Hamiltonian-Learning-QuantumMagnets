@@ -44,7 +44,7 @@ Modify config.json to adjust model parameters.
 If you use this repository in your research, please cite our paper:
 
 ```bibtex
-@article{GLupi2024,
+@article{GLupi2025,
   title={Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography},
   author={Greta Lupi and Jose L.Lado},
   journal={Phys. Rev. Applied (under review)},
