@@ -8,6 +8,7 @@ The neural network used for all cases consists of fully connected layers with Re
 
 For the spin chain, the model is structured as follows:
 
+```latex
 \begin{table}[h]
 \centering
 \begin{tabular}{|c|c|c|}
@@ -26,9 +27,11 @@ Dense (output) & (None, 3)  & 27  \
 \hline
 \end{tabular}
 \end{table}
+```
 
 For the fermionic chain:
 
+```latex
 \begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|}
@@ -53,6 +56,7 @@ For the fermionic chain:
         \hline
     \end{tabular}
 \end{table}
+```
 
 ## Dataset and Training Details
 
