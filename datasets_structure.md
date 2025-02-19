@@ -7,9 +7,10 @@ This document describes the structure of the datasets used in the project.
 The Fermionic Chain dataset is stored in a CSV file and loaded into pandas using `pd.read_csv()`. The structure of the dataframe is as follows:
 
 - **Target Parameters**: The last three columns represent the target parameters:
-  - μ
-  - t2
-  - λ
+  - $\mu$ : *chemical potential*
+  - $t_2$ : *second neighbours hopping*
+  - $\lambda_R$ : *Rashba coupling*
+  
   These columns are extracted and stored in `y_data`.
 
 - **Input Features**: The remaining columns represent the input data for training the model:
@@ -29,16 +30,17 @@ The Fermionic Chain dataset is stored in a CSV file and loaded into pandas using
 The Spin Chain datasets are stored in a CSV file and loaded into a pandas dataframe using `pd.read_csv()`. The structure of the dataframe is as follows:
 
 - **Target Parameters**: The last three columns represent the target parameters in the following order:
-  - J2
-  - Jz
-  - JDM
+  - $J_2$ : *second neighbours exchange*
+  - $J_z$ : *anysotropic exchange*
+  - $J_{DM}$ : *Dzyaloshinskii–Moriya exchange*
+  
   These columns are stored in `y_data`.
 
 - **Input Features**: All columns preceding the target parameters represent the input features and are stored in `X_data`.
 
 ### Key Dataset Parameters:
 - Number of samples: 2000
-- Length of the magnetic field vector (Bz or Bx): 12
+- Length of the magnetic field vector ($B_z$ or $B_x$): 12
 - Number of spins: 21
 
 ---
