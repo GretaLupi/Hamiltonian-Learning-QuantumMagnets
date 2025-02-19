@@ -4,7 +4,7 @@ This document describes the structure of the datasets used in the project.
 
 ## Fermionic Chain Dataset
 
-The Fermionic Chain dataset is also stored in a CSV file and loaded into pandas using `pd.read_csv()`. The structure of the dataframe is as follows:
+The Fermionic Chain dataset is stored in a CSV file and loaded into pandas using `pd.read_csv()`. The structure of the dataframe is as follows:
 
 - **Target Parameters**: The last three columns represent the target parameters:
   - μ
