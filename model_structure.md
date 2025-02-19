@@ -1,25 +1,12 @@
-Neural Network Architecture
+# Neural Network Architecture
 
 ## Overview
 
-The neural network used for all cases consists of fully connected layers with ReLU activation functions. The architecture remains the same across different datasets, with variations in input features.
+The neural network used for all cases consists of fully connected layers with *ReLU* activation functions. The architecture remains the same across different datasets, with variations in input features.
 
 ## Architecture Details
 
-For the spin chain, the model is structured as follows:
-
-| Layer           | Output Shape | Number of Parameters |
-|----------------|-------------|----------------------|
-| Dense (input)  | (None, 32)  | 672                  |
-| Dense          | (None, 32)  | 1056                 |
-| Dense          | (None, 16)  | 528                  |
-| Dense          | (None, 16)  | 272                  |
-| Dense          | (None, 8)   | 136                  |
-| Dense          | (None, 8)   | 72                   |
-| Dense (output) | (None, 3)   | 27                   |
-| **Total**     |             | **986899**           |
-
-For the fermionic chain:
+For the fermionic chain, the model is structured as follows:
 
 | Layer           | Output Shape | Number of Parameters |
 |----------------|--------------|---------------------|
@@ -38,12 +25,37 @@ For the fermionic chain:
 | Dense (output) | (None, 3)    | 51                  |
 | **Total**     |              | **986899**          |
 
+For the spin chain:
+
+| Layer           | Output Shape | Number of Parameters |
+|----------------|-------------|----------------------|
+| Dense (input)  | (None, 32)  | 672                  |
+| Dense          | (None, 32)  | 1056                 |
+| Dense          | (None, 16)  | 528                  |
+| Dense          | (None, 16)  | 272                  |
+| Dense          | (None, 8)   | 136                  |
+| Dense          | (None, 8)   | 72                   |
+| Dense (output) | (None, 3)   | 27                   |
+| **Total**     |             | **986899**           |
+
 ## Dataset and Training Details
 
 The datasets are split into training, validation, and test sets:
 
-- Training set: 55%
+- **Training set**: 55%
 
-- Validation set: 25%
+- **Validation set**: 25%
 
-- Test set: 20%
+- **Test set**: 20%
+
+## Model Training
+
+The networks are trained using the Adam optimizer with the following settings:
+
+- **Learning rate**: 0.001
+
+- **Loss function**: Mean Squared Error (MSE)
+
+- **Batch size**: 32
+
+
