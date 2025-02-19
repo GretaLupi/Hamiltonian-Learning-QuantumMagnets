@@ -71,5 +71,5 @@ model = load_model("path_to_model.h5")
 y_pred = model.predict(X_test)
 ```
 
-Ensure all dependencies are installed as specified in requirements.txt before running the scripts.
+Ensure all dependencies are installed as specified in [requirements.txt](requirements.txt) before running the scripts.
 
