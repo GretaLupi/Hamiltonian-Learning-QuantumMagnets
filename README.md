@@ -27,20 +27,6 @@ The repository includes:
   - Includes impurity responses in fermionic systems
   - Useful for benchmarking Hamiltonian learning methods.
 
-## 🚀 Usage
-Running the training script:
-
-To train the Hamiltonian learning model on a specific dataset, use:
-
-```bash
-python train_model.py --dataset spin_chain
-```
-For the fermionic dataset:
-```bash
-python train_model.py --dataset fermionic_chain
-```
-Modify config.json to adjust model parameters.
-
 ## 📄 Citation
 If you use this repository in your research, please cite our paper:
 
