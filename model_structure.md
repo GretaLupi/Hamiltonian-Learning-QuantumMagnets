@@ -8,32 +8,24 @@ The neural network used for all cases consists of fully connected layers with Re
 
 For the spin chain, the model is structured as follows:
 
-```latex
-\begin{table}[h]
-\centering
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Layer} & \textbf{Output Shape} & \textbf{Number of Parameters} \
-\hline
-Dense (input)  & (None, 32) & 672 \
-Dense         & (None, 32) & 1056 \
-Dense         & (None, 16) & 528 \
-Dense         & (None, 16) & 272 \
-Dense         & (None, 8)  & 136 \
-Dense         & (None, 8)  & 72  \
-Dense (output) & (None, 3)  & 27  \
-\hline
-\textbf{Total} &  & \textbf{2763} \
-\hline
-\end{tabular}
-\end{table}
+```markdown
+| Layer           | Output Shape | Number of Parameters |
+|----------------|-------------|----------------------|
+| Dense (input)  | (None, 32)  | 672                  |
+| Dense          | (None, 32)  | 1056                 |
+| Dense          | (None, 16)  | 528                  |
+| Dense          | (None, 16)  | 272                  |
+| Dense          | (None, 8)   | 136                  |
+| Dense          | (None, 8)   | 72                   |
+| Dense (output) | (None, 3)   | 27                   |
+| **Total**     |             | **986899**           |
 ```
 
 For the fermionic chain:
 
 ```markdown
 | Layer           | Output Shape | Number of Parameters |
-|----------------|-------------|----------------------|
+|----------------|--------------|---------------------|
 | Dense (input)  | (None, 512)  | 461312              |
 | Dense          | (None, 512)  | 262656              |
 | Dense          | (None, 256)  | 131328              |
@@ -47,7 +39,7 @@ For the fermionic chain:
 | Dense          | (None, 16)   | 528                 |
 | Dense          | (None, 16)   | 272                 |
 | Dense (output) | (None, 3)    | 51                  |
-| **Total**      |             | **986899**          |
+| **Total**     |              | **986899**          |
 ```
 
 ## Dataset and Training Details
