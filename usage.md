@@ -73,3 +73,7 @@ y_pred = model.predict(X_test)
 
 Ensure all dependencies are installed as specified in [requirements.txt](requirements.txt) before running the scripts.
 
+## 5. Model Architecture
+The neural networks used in this study consists of fully connected layers with ReLU activation functions. 
+
+For a complete description of the network structures, including layer details and trainable parameters, refer to [models_structure.md](models_structure.md).
