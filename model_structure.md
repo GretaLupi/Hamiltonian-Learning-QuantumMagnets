@@ -18,7 +18,7 @@ For the spin chain, the model is structured as follows:
 | Dense          | (None, 8)   | 136                  |
 | Dense          | (None, 8)   | 72                   |
 | Dense (output) | (None, 3)   | 27                   |
-| __Total__     |             | **986899**           |
+| ** Total **     |             | ** 986899 **           |
 ```
 
 For the fermionic chain:
