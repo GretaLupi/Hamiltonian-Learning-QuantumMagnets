@@ -1,7 +1,7 @@
 # Hamiltonian Learning Quantum Magnets - Datasets & Models
 
 This repository contains the datasets and models used in the paper:  
-**"Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography"**  
+[**"Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography"**](https://arxiv.org/abs/2412.07666) arXiv: [2412.07666](https://arxiv.org/abs/2412.07666).
 
 ## 📂 Contents
 - **Datasets:** Numerical simulations for spin and fermionic chains with impurity-based tomography.
@@ -30,11 +30,14 @@ The repository includes:
 If you use this repository in your research, please cite our paper:
 
 ```bibtex
-@article{GLupi2025,
-  title={Hamiltonian Learning of Quantum Magnets with Non-Local Impurity Tomography},
-  author={Greta Lupi and Jose L.Lado},
-  journal={Phys. Rev. Applied (under review)},
-  year={2025}
+@misc{lupi2024hamiltonianlearningquantummagnets,
+      title={Hamiltonian learning quantum magnets with non-local impurity tomography}, 
+      author={Greta Lupi and Jose L. Lado},
+      year={2024},
+      eprint={2412.07666},
+      archivePrefix={arXiv},
+      primaryClass={cond-mat.mes-hall},
+      url={https://arxiv.org/abs/2412.07666}, 
 }
 ```
 
