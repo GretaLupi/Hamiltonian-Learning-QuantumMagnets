@@ -31,31 +31,23 @@ Dense (output) & (None, 3)  & 27  \
 
 For the fermionic chain:
 
-```latex
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Layer} & \textbf{Output Shape} & \textbf{Number of Parameters} \\
-        \hline
-        Dense (input)  & (None, 512) & 461312 \\
-        Dense         & (None, 512) & 262656 \\
-        Dense         & (None, 256) & 131328 \\
-        Dense         & (None, 256) & 65792  \\
-        Dense         & (None, 128) & 32896  \\
-        Dense         & (None, 128) & 16512  \\
-        Dense         & (None, 64)  & 8256   \\
-        Dense         & (None, 64)  & 4160   \\
-        Dense         & (None, 32)  & 2080   \\
-        Dense         & (None, 32)  & 1056   \\
-        Dense         & (None, 16)  & 528    \\
-        Dense         & (None, 16)  & 272    \\
-        Dense (output) & (None, 3)  & 51     \\
-        \hline
-        \textbf{Total} &  & \textbf{986899} \\
-        \hline
-    \end{tabular}
-\end{table}
+```markdown
+| Layer           | Output Shape | Number of Parameters |
+|----------------|-------------|----------------------|
+| Dense (input)  | (None, 512)  | 461312              |
+| Dense          | (None, 512)  | 262656              |
+| Dense          | (None, 256)  | 131328              |
+| Dense          | (None, 256)  | 65792               |
+| Dense          | (None, 128)  | 32896               |
+| Dense          | (None, 128)  | 16512               |
+| Dense          | (None, 64)   | 8256                |
+| Dense          | (None, 64)   | 4160                |
+| Dense          | (None, 32)   | 2080                |
+| Dense          | (None, 32)   | 1056                |
+| Dense          | (None, 16)   | 528                 |
+| Dense          | (None, 16)   | 272                 |
+| Dense (output) | (None, 3)    | 51                  |
+| **Total**      |             | **986899**          |
 ```
 
 ## Dataset and Training Details
