@@ -5,6 +5,7 @@ The dataset and pre-trained models are provided in the repository. To load them:
 
 ```python
 import pandas as pd
+
 data = pd.read_csv("data/dataset.csv")
 ```
 For more details, refer to [datasets_structure.md](datasets_structure.md).
@@ -14,6 +15,7 @@ To improve model robustness, Gaussian noise can be added to the training and tes
 
 ```python
 import numpy as np
+
 def add_gaussian_noise(data, std_dev_noise=0.1):
     """
     Add Gaussian noise to the data.
@@ -44,6 +46,7 @@ This function calculates the fidelity between two distributions:
 
 ```python
 import numpy as np
+
 def fidelity(true_values, predicted_values):
     """Calculate fidelity between true and predicted values."""
     num = np.mean(predicted_values[:] * true_values[:]) - np.mean(predicted_values[:]) * np.mean(true_values[:])
@@ -52,6 +55,7 @@ def fidelity(true_values, predicted_values):
 ```
 
 Example usage:
+
 ```python
 fid = fidelity(vector1, vector2)
 ```
