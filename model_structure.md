@@ -6,7 +6,7 @@ The neural network used for all cases consists of fully connected layers with *R
 
 ## Architecture Details
 
-For the fermionic chain, the model is structured as follows:
+For the Fermionic Chain, the model is structured as follows:
 
 | Layer           | Output Shape | Number of Parameters |
 |----------------|--------------|---------------------|
@@ -25,7 +25,7 @@ For the fermionic chain, the model is structured as follows:
 | Dense (output) | (None, 3)    | 51                  |
 | **Total**     |              | **986899**          |
 
-For the spin chain:
+For the Spin Chain:
 
 | Layer           | Output Shape | Number of Parameters |
 |----------------|-------------|----------------------|
@@ -50,7 +50,7 @@ The datasets are split into training, validation, and test sets:
 
 ## Model Training
 
-The networks are trained using the Adam optimizer with the following settings:
+The networks are trained using the *ADAM optimizer* with the following settings:
 
 - **Learning rate**: 0.001
 
