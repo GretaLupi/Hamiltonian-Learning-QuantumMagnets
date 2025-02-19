@@ -77,3 +77,5 @@ y_data = df[df.columns[-3:]].values
 X_data = df[df.columns[:-3]].values
 
 ```
+PCA was used to reduce data dimensionality before training the spin chain models.
+The specific code is not included here, but it can be implemented using `sklearn.decomposition.PCA`. For a detailed explanation of its methodology and impact on model performance, see the accompanying paper.
