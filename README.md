@@ -21,7 +21,7 @@ The repository includes:
 
 - **Spin Chain Datasets** (datasets/spinchain_data_Bx.csv & spinchain_data_Bz.csv):
   - Contains spin correlation calculations with spin-1 impurity perturbation.
-  - Both Bx and Bz case.
+  - Both $B_x$ and $B_z$ case.
 - **Fermionic Chain Dataset** (datasets/ferm_chain_data.csv):
   - Includes impurity responses in fermionic systems
   - Useful for benchmarking Hamiltonian learning methods.
